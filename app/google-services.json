@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "241927310189",
+    "firebase_url": "https://fixchat-c25a9.firebaseio.com",
+    "project_id": "fixchat-c25a9",
+    "storage_bucket": "fixchat-c25a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241927310189:android:f583c7afc3b3310b",
+        "android_client_info": {
+          "package_name": "com.victoryfero.fixchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241927310189-e314bhp13cjqe8vf68f5c48muhccn5jv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.victoryfero.fixchat",
+            "certificate_hash": "05c2cedb2989d0184fb42277192b8c206d1ad1a2"
+          }
+        },
+        {
+          "client_id": "241927310189-ji7hoqhltsj6ffhof19cntfet0b07sc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoXAh_mluzYC7AOG6Fj-Ro-2qdMIG_YGY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241927310189-ji7hoqhltsj6ffhof19cntfet0b07sc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
