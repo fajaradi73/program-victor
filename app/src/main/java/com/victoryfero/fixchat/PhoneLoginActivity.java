@@ -6,6 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -115,7 +116,7 @@ public class PhoneLoginActivity extends AppCompatActivity
             {
                 loadingBar.dismiss();
                 Toast.makeText(PhoneLoginActivity.this, "Invalid Phone Number, Please enter correct number with your country code...", Toast.LENGTH_SHORT).show();
-
+                Log.d("verificationGagal",e.toString());
                 SendVerificationButton.setVisibility(View.VISIBLE);
                 InputPhoneNumber.setVisibility(View.VISIBLE);
 

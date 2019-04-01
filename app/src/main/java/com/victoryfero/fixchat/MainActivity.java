@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
@@ -89,7 +90,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot)
             {
-                if (dataSnapshot.child("name").exists())
+                if (!dataSnapshot.child("name").exists())
                 {
                     Toast.makeText(MainActivity.this, "Wellcome", Toast.LENGTH_SHORT).show();
                 }
@@ -97,6 +98,7 @@ public class MainActivity extends AppCompatActivity
                 {
                     SendUserToSettingsActivity();
                 }
+                Log.d("datakuy",dataSnapshot.child("name")+"");
             }
 
             @Override
